@@ -38,7 +38,7 @@ if x > 0:
     sign = "positive" # Indented block
 print(sign)           # Outside the block
 ```
-If you forget to indent, Python will throw an `IndentationError`. *(See the [Scientific Python Lectures on Control Flow](https://lectures.scientific-python.org/intro/language/control_flow.html) for more examples).*
+If you forget to indent, Python will throw an `IndentationError`. *(See the [Scientific Python Page on Control Flow](https://lectures.scientific-python.org/intro/language/control_flow.html) for more examples).*
 
 ### 2. Mathematics: True vs. Integer Division
 When doing math, understand the difference between `/` and `//`:
