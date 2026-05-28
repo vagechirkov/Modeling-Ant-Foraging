@@ -7,6 +7,9 @@ on:
     paths:
       - 'wiki/**' # Only run when files in your wiki folder change
 
+permissions:
+  contents: write
+
 jobs:
   update-wiki:
     runs-on: ubuntu-latest
