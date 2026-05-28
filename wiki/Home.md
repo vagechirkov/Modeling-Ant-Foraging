@@ -125,7 +125,7 @@ my_model = AntModel(...)
 
 ---
 
-## 📝 Note for Maintainers: Updating the Cookbook
+## 📝 Note for Maintainers: Updating the Cookbook.md based on Cookbook.ipynb
 
 If you ever add new examples to `wiki/Cookbook.ipynb` and want to update the `Cookbook.md` file displayed in the Wiki (complete with the executed plots and outputs), you can do so by running the following command in your terminal while your virtual environment is activated:
 
