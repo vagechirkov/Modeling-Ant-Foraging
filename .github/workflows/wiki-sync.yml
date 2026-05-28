@@ -1,0 +1,20 @@
+name: Sync Wiki
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - 'wiki/**' # Only run when files in your wiki folder change
+
+jobs:
+  update-wiki:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Sync local wiki folder to GitHub Wiki
+        uses: Andrew-Chen-Wang/github-wiki-action@v4
+        with:
+          path: wiki # The name of your local folder
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
