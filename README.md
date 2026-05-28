@@ -1,5 +1,12 @@
 # Modeling-Ant-Foraging-Seminar
 
+## 📖 Wiki & Cookbook
+
+Please check out our [GitHub Wiki](../../wiki) for a comprehensive guide! It includes:
+- **Environment Glossary & Python Refresher** to help you get started with the tools.
+- **Concept Glossary** mapping biological/mathematical models to the Python code.
+- **Cookbook** filled with starter snippets for exercises.
+- **Resources** referencing essential papers, books, and YouTube channels.
 
 ## Installation
 
