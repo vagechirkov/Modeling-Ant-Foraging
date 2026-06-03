@@ -142,9 +142,9 @@ class AntModel(Model):
             n_ants: int = 10,
             speed: float = 1.0,
             kappa: float = 5.0,
-            seed: int | None = None,
+            rng: int | None = None,
     ) -> None:
-        super().__init__(seed=seed)
+        super().__init__(rng=rng)
         self.width, self.height = width, height
 
         # Continuous space
