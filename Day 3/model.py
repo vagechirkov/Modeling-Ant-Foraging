@@ -27,7 +27,7 @@ class AntAgent(ContinuousSpaceAgent):
 
     def __init__(
             self,
-            model: "AntModel",
+            model: "AntModel", # type: ignore
             space: ContinuousSpace,
             position: Tuple[float, float],
             speed: float = 1.0,
