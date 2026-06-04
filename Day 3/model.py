@@ -178,9 +178,9 @@ class StigmergyModel(Model):
             kappa: float = 5.0,
             diffusion_rate: float = 25.0,
             evaporation_rate: float = 5.0,
-            seed: int | None = None,
+            rng: int | None = None,
     ) -> None:
-        super().__init__(seed=seed)
+        super().__init__(rng=rng)
         self.width, self.height = width, height
 
         # Continuous space
